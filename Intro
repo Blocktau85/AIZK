@@ -1,0 +1,37 @@
+AIZK-Swarm/
+│
+├── docs/                   # Documentation related to the project
+│   ├── whitepaper.md       # The full whitepaper for AIZK Swarm
+│   ├── architecture.md      # System architecture diagrams and explanations
+│   ├── compliance.md        # Regulatory compliance information
+│   └── user-guide.md        # User guide for developers and end-users
+│
+├── src/                    # Source code of the application
+│   ├── backend/             # Golang backend code
+│   │   ├── main.go          # Main entry point of the application
+│   │   ├── handlers/        # HTTP handlers for API endpoints
+│   │   ├── models/          # Data models and structures
+│   │   ├── services/        # Business logic and service layers
+│   │   ├── middleware/      # Middleware for authentication, logging, etc.
+│   │   └── utils/           # Utility functions
+│   │
+│   └── frontend/            # Angular frontend code
+│       ├── src/            # Angular application source code
+│       ├── assets/         # Static assets like images and styles
+│       └── environments/    # Configuration for different environments (dev, prod)
+│
+├── tests/                  # Test cases for the project
+│   ├── backend/             # Tests for Golang backend services
+│   └── frontend/            # Tests for Angular components and services
+│
+├── scripts/                # Scripts for setup, deployment, and testing
+│   ├── setup.sh            # Script to set up the environment
+│   ├── deploy.sh           # Deployment script for backend and frontend
+│   └── test.sh             # Script to run tests
+│
+├── examples/               # Example use cases demonstrating AIZK Swarm
+│   ├── compliance_example/  # Example implementation of compliance automation
+│   └── ai_helper_example/   # Use case for Swarm AI Helper
+│
+├── LICENSE                  # License file for the project
+└── README.md                # Overview of the project, setup instructions, and usage
